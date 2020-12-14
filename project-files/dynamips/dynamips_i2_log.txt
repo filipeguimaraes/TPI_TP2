@@ -1,0 +1,38 @@
+Dec 14 09:54:36.328 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 14 09:54:36.328 HYPERVISOR: Started on IP = localhost, TCP port = 35949.
+Dec 14 09:54:36.338 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 14 09:54:36.338 HYPERVISOR: exec_cmd: hypervisor working_dir /home/wtv/universidade/TPI/TPI_TP2/project-files/dynamips 
+Dec 14 09:54:36.338 GENERAL: working_dir=/home/wtv/universidade/TPI/TPI_TP2/project-files/dynamips
+Dec 14 09:54:36.338 HYPERVISOR: exec_cmd: hypervisor working_dir /home/wtv/universidade/TPI/TPI_TP2/project-files/dynamips/d184517b-d1b4-4aec-989b-22c5db2cf10e 
+Dec 14 09:54:36.338 GENERAL: working_dir=/home/wtv/universidade/TPI/TPI_TP2/project-files/dynamips/d184517b-d1b4-4aec-989b-22c5db2cf10e
+Dec 14 09:54:36.339 HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+Dec 14 09:54:36.339 VM: VM R2 created.
+Dec 14 09:54:36.339 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Dec 14 09:54:36.339 HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+Dec 14 09:54:36.339 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Dec 14 09:54:36.340 HYPERVISOR: exec_cmd: vm set_ios R2 /home/wtv/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Dec 14 09:54:36.340 HYPERVISOR: exec_cmd: c3745 set_mac_addr R2 c402.5d53.0000 
+Dec 14 09:54:36.340 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Dec 14 09:54:36.340 HYPERVISOR: exec_cmd: vm set_ram R2 256 
+Dec 14 09:54:42.324 HYPERVISOR: exec_cmd: vm set_ios R2 /home/wtv/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Dec 14 09:54:49.572 HYPERVISOR: exec_cmd: vm set_ios R2 /home/wtv/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Dec 14 09:54:54.998 HYPERVISOR: exec_cmd: nio create_udp udp-1286886c-8646-4754-bd49-45a15d71bbae 10004 127.0.0.1 10005 
+Dec 14 09:54:55.223 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-1286886c-8646-4754-bd49-45a15d71bbae 
+Dec 14 09:54:55.225 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 14 09:55:02.422 HYPERVISOR: exec_cmd: nio create_udp udp-b4bc136d-9f55-46ef-975b-c15b03b46c13 10008 127.0.0.1 10009 
+Dec 14 09:55:02.423 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-b4bc136d-9f55-46ef-975b-c15b03b46c13 
+Dec 14 09:55:02.423 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 14 09:55:15.466 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 14 09:55:15.467 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R2 0 1 
+Dec 14 09:55:15.469 HYPERVISOR: exec_cmd: nio delete udp-b4bc136d-9f55-46ef-975b-c15b03b46c13 
+Dec 14 09:55:28.351 HYPERVISOR: exec_cmd: nio create_udp udp-c3787a0c-74b3-44ea-8bf3-38873854535c 10008 127.0.0.1 10009 
+Dec 14 09:55:28.351 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-c3787a0c-74b3-44ea-8bf3-38873854535c 
+Dec 14 09:55:28.352 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 14 09:56:07.573 HYPERVISOR: exec_cmd: vm set_ios R2 /home/wtv/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Dec 14 09:56:37.229 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 14 09:56:37.230 HYPERVISOR: exec_cmd: vm extract_config R2 
+Dec 14 09:56:37.230 HYPERVISOR: exec_cmd: vm delete R2 
+Dec 14 09:56:37.230 VM: VM R2 destroyed.
+Dec 14 09:56:37.230 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 14 09:56:37.470 HYPERVISOR: Stopped.
+Dec 14 09:56:37.470 GENERAL: reset done.

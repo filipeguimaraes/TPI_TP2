@@ -1,0 +1,34 @@
+Dec 14 09:54:36.482 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 14 09:54:36.482 HYPERVISOR: Started on IP = localhost, TCP port = 53819.
+Dec 14 09:54:36.492 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 14 09:54:36.492 HYPERVISOR: exec_cmd: hypervisor working_dir /home/wtv/universidade/TPI/TPI_TP2/project-files/dynamips 
+Dec 14 09:54:36.492 GENERAL: working_dir=/home/wtv/universidade/TPI/TPI_TP2/project-files/dynamips
+Dec 14 09:54:36.493 HYPERVISOR: exec_cmd: hypervisor working_dir /home/wtv/universidade/TPI/TPI_TP2/project-files/dynamips/2da52e68-afa1-468c-b287-f4f16322510c 
+Dec 14 09:54:36.493 GENERAL: working_dir=/home/wtv/universidade/TPI/TPI_TP2/project-files/dynamips/2da52e68-afa1-468c-b287-f4f16322510c
+Dec 14 09:54:36.493 HYPERVISOR: exec_cmd: vm create R8 8 c3745 
+Dec 14 09:54:36.493 VM: VM R8 created.
+Dec 14 09:54:36.493 HYPERVISOR: exec_cmd: vm set_con_tcp_port R8 5007 
+Dec 14 09:54:36.493 HYPERVISOR: exec_cmd: c3745 get_mac_addr R8 
+Dec 14 09:54:36.493 HYPERVISOR: exec_cmd: vm set_disk0 R8 0 
+Dec 14 09:54:36.494 HYPERVISOR: exec_cmd: vm set_ios R8 /home/wtv/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Dec 14 09:54:36.494 HYPERVISOR: exec_cmd: c3745 set_mac_addr R8 c408.5dbb.0000 
+Dec 14 09:54:36.494 HYPERVISOR: exec_cmd: vm set_nvram R8 256 
+Dec 14 09:54:36.494 HYPERVISOR: exec_cmd: vm set_ram R8 256 
+Dec 14 09:54:42.594 HYPERVISOR: exec_cmd: vm set_ios R8 /home/wtv/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Dec 14 09:54:49.905 HYPERVISOR: exec_cmd: vm set_ios R8 /home/wtv/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Dec 14 09:54:49.994 HYPERVISOR: exec_cmd: vm set_ios R8 /home/wtv/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Dec 14 09:54:50.074 HYPERVISOR: exec_cmd: vm set_ios R8 /home/wtv/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Dec 14 09:55:38.353 HYPERVISOR: exec_cmd: nio create_udp udp-636b82b8-26cd-40f8-8ed0-7b42b8e8ae5d 10028 127.0.0.1 10029 
+Dec 14 09:55:38.576 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 0 0 udp-636b82b8-26cd-40f8-8ed0-7b42b8e8ae5d 
+Dec 14 09:55:38.579 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 14 09:55:56.937 HYPERVISOR: exec_cmd: nio create_udp udp-eed120fb-9268-4cbd-a755-d9fae0e4f80d 10046 127.0.0.1 10047 
+Dec 14 09:55:56.938 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 0 1 udp-eed120fb-9268-4cbd-a755-d9fae0e4f80d 
+Dec 14 09:55:56.939 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 14 09:56:04.620 HYPERVISOR: exec_cmd: vm set_ios R8 /home/wtv/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Dec 14 09:56:37.038 HYPERVISOR: exec_cmd: vm get_status R8 
+Dec 14 09:56:37.039 HYPERVISOR: exec_cmd: vm extract_config R8 
+Dec 14 09:56:37.040 HYPERVISOR: exec_cmd: vm delete R8 
+Dec 14 09:56:37.040 VM: VM R8 destroyed.
+Dec 14 09:56:37.041 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 14 09:56:37.124 HYPERVISOR: Stopped.
+Dec 14 09:56:37.124 GENERAL: reset done.
