@@ -1,0 +1,43 @@
+Dec 26 16:07:31.463 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 26 16:07:31.463 HYPERVISOR: Started on IP = localhost, TCP port = 55229.
+Dec 26 16:07:31.480 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 26 16:07:31.481 HYPERVISOR: exec_cmd: hypervisor working_dir /home/wtv/universidade/TPI/TPI_TP2/project-files/dynamips 
+Dec 26 16:07:31.481 GENERAL: working_dir=/home/wtv/universidade/TPI/TPI_TP2/project-files/dynamips
+Dec 26 16:07:31.482 HYPERVISOR: exec_cmd: hypervisor working_dir /home/wtv/universidade/TPI/TPI_TP2/project-files/dynamips/15e82818-14cd-44da-a7ee-586c9a139d7c 
+Dec 26 16:07:31.482 GENERAL: working_dir=/home/wtv/universidade/TPI/TPI_TP2/project-files/dynamips/15e82818-14cd-44da-a7ee-586c9a139d7c
+Dec 26 16:07:31.483 HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+Dec 26 16:07:31.484 VM: VM R2 created.
+Dec 26 16:07:31.485 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5004 
+Dec 26 16:07:31.486 HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+Dec 26 16:07:31.488 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Dec 26 16:07:31.492 HYPERVISOR: exec_cmd: vm set_ios R2 /home/wtv/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Dec 26 16:07:31.495 HYPERVISOR: exec_cmd: c3745 set_mac_addr R2 c402.4596.0000 
+Dec 26 16:07:31.496 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Dec 26 16:07:31.498 HYPERVISOR: exec_cmd: vm set_ram R2 256 
+Dec 26 16:07:31.500 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 26 16:07:31.500 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-4T 
+Dec 26 16:07:31.504 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5004 
+Dec 26 16:07:32.395 HYPERVISOR: exec_cmd: nio create_udp udp-24903dcf-4d67-4b5f-99e7-8736ec31ffc9 10016 127.0.0.1 10017 
+Dec 26 16:07:32.626 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-24903dcf-4d67-4b5f-99e7-8736ec31ffc9 
+Dec 26 16:07:32.628 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 26 16:07:33.416 HYPERVISOR: exec_cmd: nio create_udp udp-41fa6d57-f9b3-4213-a3a8-a45e93f23ac3 10032 127.0.0.1 10033 
+Dec 26 16:07:33.418 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 1 udp-41fa6d57-f9b3-4213-a3a8-a45e93f23ac3 
+Dec 26 16:07:33.418 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 26 16:07:58.560 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Dec 26 16:07:58.561 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/wtv/universidade/TPI/TPI_TP2/project-files/dynamips/c3745-advipservicesk9-mz.124-25d.image-256.ghost 
+Dec 26 16:07:58.562 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 26 16:07:58.562 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Dec 26 16:07:58.563 HYPERVISOR: exec_cmd: vm start R2 
+Dec 26 16:12:09.370 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 26 16:12:09.377 HYPERVISOR: exec_cmd: vm stop R2 
+Dec 26 16:12:09.518 VM: VM R2 shutdown.
+Dec 26 16:12:09.533 HYPERVISOR: exec_cmd: vm extract_config R2 
+Dec 26 16:12:30.785 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 26 16:12:30.787 HYPERVISOR: exec_cmd: vm extract_config R2 
+Dec 26 16:12:30.864 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 26 16:12:30.865 HYPERVISOR: exec_cmd: vm extract_config R2 
+Dec 26 16:12:30.866 HYPERVISOR: exec_cmd: vm delete R2 
+Dec 26 16:12:30.867 VM: VM R2 destroyed.
+Dec 26 16:12:30.867 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 26 16:12:31.325 HYPERVISOR: Stopped.
+Dec 26 16:12:31.326 GENERAL: reset done.

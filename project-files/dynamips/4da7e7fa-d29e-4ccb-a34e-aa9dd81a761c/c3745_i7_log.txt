@@ -1,1 +1,0 @@
-Dec 14 09:56:37.309 VM: trying to shutdown an inactive VM.
