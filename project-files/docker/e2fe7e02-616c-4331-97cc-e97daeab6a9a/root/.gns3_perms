@@ -105,7 +105,6 @@
 644:0:0:/root/.bashrc
 600:0:0:/root/.bash_history
 644:0:0:/root/.gns3_perms
-755:0:0:/root/.cache/.lxterminal-socket-:100
 700:0:0:/root/.cache
 644:0:0:/root/.config/lxterminal/lxterminal.conf
 755:0:0:/root/.config/lxterminal
