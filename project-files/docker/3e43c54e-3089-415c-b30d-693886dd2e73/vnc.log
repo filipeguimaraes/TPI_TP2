@@ -8,7 +8,7 @@ Underlying X server release 12009000, The X.Org Foundation
 Fri Jan 22 17:57:04 2021
  vncext:      VNC extension running!
  vncext:      Listening for VNC connections on localhost interface(s), port
-              5901
+              5900
  vncext:      created VNC server for screen 0
 
 Fri Jan 22 18:00:34 2021
