@@ -12,3 +12,7 @@ apt
 su
 apt update
 su -
+ping 10.0.8.2
+ping 10.0.8.2
+ping 10.0.8.3
+ping 10.0.8.3
